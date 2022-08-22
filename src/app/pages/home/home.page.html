@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      MyApp1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+
+  <div id="container">
+    <h1>Buttons</h1>
+    <ion-button>BTN 1</ion-button>
+    <ion-button size="small">BTN 2</ion-button>
+    <ion-button size="small" color="secondary">BTN 3</ion-button>
+    <ion-button size="small" color="warning">BTN 4</ion-button>
+    <ion-button size="small" color="warning" fill="outline">BTN 5</ion-button>
+    <ion-button size="small" color="warning" fill="outline" expand="full">BTN 6</ion-button>
+    <ion-button size="small" color="danger" fill="outline" expand="block">BTN 7</ion-button>
+    <ion-button size="small" color="success"  expand="block">BTN 8</ion-button>
+    <ion-button size="small" color="success"  expand="block">
+      <ion-icon name="airplane" slot="end"></ion-icon>
+      BTN 8
+    </ion-button>
+    
+    
+    
+  </div>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="settings"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button><ion-icon name="save"></ion-icon></ion-fab-button>
+      <ion-fab-button><ion-icon name="apps"></ion-icon></ion-fab-button>
+      <ion-fab-button><ion-icon name="trash"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="person"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button><ion-icon name="save"></ion-icon></ion-fab-button>
+      <ion-fab-button><ion-icon name="hammer" color="warning"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="start">
+      <ion-fab-button><ion-icon name="apps"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="end">
+      <ion-fab-button><ion-icon name="trash"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+
+</ion-content>
