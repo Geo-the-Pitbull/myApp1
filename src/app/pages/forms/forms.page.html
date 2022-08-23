@@ -1,9 +1,37 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar class="new-background-color">
     <ion-title>forms</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <div class="container">
+
+    <h1 style="text-align: center; font-weight: 700; text-transform: uppercase;">Contact Us</h1>
+
+    <form style="padding: 10px;">
+      <ion-item>
+        <ion-label>Name:</ion-label>
+        <ion-input placeholder="Enter name here..." style="font-size: 12px; font-style: italic;" class="ion-text-wrap"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Email:</ion-label>
+        <ion-input placeholder="Enter email here..." style="font-size: 12px; font-style: italic;" class="ion-text-wrap"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Message:</ion-label>
+        <ion-textarea placeholder="Enter message here..." rows="4" cols="3" style="font-size: 12px; font-style: italic;" class="ion-text-wrap"></ion-textarea>
+      </ion-item>
+      <br>
+  
+      <div class="center">
+        <ion-button type="submit" size="small" color="warning">Thank You!</ion-button>
+      </div>
+    </form>
+
+  </div>
 
 </ion-content>

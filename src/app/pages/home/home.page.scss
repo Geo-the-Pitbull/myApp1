@@ -22,3 +22,18 @@
 #container a {
   text-decoration: none;
 }
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+}
+
+ion-content {
+  --background: none;
+  background: url("/assets/gbg.jpg") no-repeat center/cover fixed;
+}
+
+.new-background-color{
+  --background: #0096FF;
+}
+

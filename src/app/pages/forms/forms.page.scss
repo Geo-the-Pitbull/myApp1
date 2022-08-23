@@ -1,0 +1,17 @@
+ion-content {
+    background-color: beige;
+    // --background: none;
+    // background: url(https://images.pexels.com/photos/1320701/pexels-photo-1320701.jpeg?auto=compress&cs=tinysrgb&w=1600) no-repeat center/cover fixed;
+}
+
+#container {
+    top: 15px;
+}
+
+.new-background-color{
+    --background: #0096FF;
+}
+
+.center {
+    text-align: center;
+}
